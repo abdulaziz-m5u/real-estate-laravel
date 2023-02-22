@@ -1,0 +1,5 @@
+* Todo List 
+    # upload images [✔]
+    # add column description [✔]
+    # create store contact & alert [✔]
+    # email newsletter send email []

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/congfig.css" />
+        <link rel="stylesheet" href="./assets/css/homepage.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+
+        <title>Responsive real estate - ypcode</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__logo">
+                    <a href="#home"
+                        >Ho<span>mie</span> <i class="bx bxs-home-heart"></i>
+                    </a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link"> About </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link"> Blog </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link"> Contact </a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <!-- <a href="#button" class="button nav__button">Sign Up</a> -->
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Helping people get their dream home
+                        </h1>
+                        <p class="home__description">
+                            Find a different of home that comportable for you
+                            <br class="home__br" />
+                            forget the hard thing about finding great home
+                        </p>
+
+                        <form action="" class="home__search">
+                            <input
+                                type="search"
+                                placeholder="Enter your email..."
+                                class="home__search-input"
+                            />
+                            <button class="button">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+
+                        <div class="home__img">
+                            <img src="./assets/images/home.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">Best Categories</span>
+                    <h2 class="section__title">
+                        Explore categories<span>.</span>
+                    </h2>
+
+                    <div class="popular__container grid">
+                        <article class="popular__card">
+                            <img
+                                src="./assets/images/category-1.jpg"
+                                alt=""
+                                class="popular__img"
+                            />
+                            <div class="popular__data">
+                                <h3 class="popular__title">Restaurants</h3>
+                                <span class="popular__description">
+                                    3 Properties
+                                </span>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <img
+                                src="./assets/images/category-2.jpg"
+                                alt=""
+                                class="popular__img"
+                            />
+                            <div class="popular__data">
+                                <h3 class="popular__title">Villa</h3>
+                                <span class="popular__description">
+                                    3 Properties
+                                </span>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <img
+                                src="./assets/images/category-3.jpg"
+                                alt=""
+                                class="popular__img"
+                            />
+                            <div class="popular__data">
+                                <h3 class="popular__title">Office</h3>
+                                <span class="popular__description">
+                                    3 Properties
+                                </span>
+                            </div>
+                        </article>
+                        <article class="popular__card">
+                            <img
+                                src="./assets/images/category-4.jpg"
+                                alt=""
+                                class="popular__img"
+                            />
+                            <div class="popular__data">
+                                <h3 class="popular__title">Industrial</h3>
+                                <span class="popular__description">
+                                    3 Properties
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="property">
+                <div class="container">
+                    <span class="section__subtitle">Best Choice</span>
+                    <h2 class="section__title">
+                        Popular Property<span>.</span>
+                    </h2>
+
+                    <div class="property__container grid">
+                        <article class="property__card">
+                            <a href="detail.html">
+                                <div class="property__images">
+                                    <img
+                                        src="./assets/images/detail-1.jpg"
+                                        alt=""
+                                        class="property__img"
+                                    />
+                                    <span class="property__badge"> Villa </span>
+                                </div>
+                                <div class="property__data">
+                                    <h2 class="property__price">
+                                        <span>$</span>66,356
+                                    </h2>
+                                    <h3 class="property__title">Restaurants</h3>
+                                    <span class="property__description">
+                                        Street The Garden City Of Miraflores,
+                                        Lima - Lombok jend sudirman</span
+                                    >
+                                </div>
+                            </a>
+                        </article>
+                        <article class="property__card">
+                            <a href="detail.html">
+                                <div class="property__images">
+                                    <img
+                                        src="./assets/images/detail-2.jpg"
+                                        alt=""
+                                        class="property__img"
+                                    />
+                                    <span class="property__badge"> Villa </span>
+                                </div>
+                                <div class="property__data">
+                                    <h2 class="property__price">
+                                        <span>$</span>66,356
+                                    </h2>
+                                    <h3 class="property__title">Restaurants</h3>
+                                    <span class="property__description"
+                                        >Street The Garden City Of Miraflores,
+                                        Lima - Lombok jend sudirman</span
+                                    >
+                                </div>
+                            </a>
+                        </article>
+                        <article class="property__card">
+                            <a href="detail.html">
+                                <div class="property__images">
+                                    <img
+                                        src="./assets/images/detail-3.jpg"
+                                        alt=""
+                                        class="property__img"
+                                    />
+                                    <span class="property__badge"> Villa </span>
+                                </div>
+                                <div class="property__data">
+                                    <h2 class="property__price">
+                                        <span>$</span>66,356
+                                    </h2>
+                                    <h3 class="property__title">Restaurants</h3>
+                                    <span class="property__description"
+                                        >Street The Garden City Of Miraflores,
+                                        Lima - Lombok jend sudirman
+                                    </span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="subscribe section">
+                <div class="subscribe__container container">
+                    <h2 class="subscribe__title">
+                        Start listing or buying a <br />
+                        property with us
+                    </h2>
+
+                    <a href="#" class="button subscribe__button"
+                        >Get Started
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Ho<span>mie</span> <i class="bx bxs-home-heart"></i>
+                    </a>
+                    <p class="footer__description">
+                        Our vision is to make all people <br />
+                        the best place to live for them.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">About</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Features </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">News & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">Company</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link"
+                                    >How We Work?
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link"> Security</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">Support</h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link"
+                                    >Support center
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link"> Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">Follow us</h3>
+
+                        <ul class="footer__social">
+                            <a href="#" class="footer__social-link">
+                                <i class="bx bxl-facebook-circle"></i>
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <i class="bx bxl-instagram-alt"></i>
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <i class="bx bxl-pinterest"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; ypcode. All rigths reserved
+                </span>
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
